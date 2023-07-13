@@ -1,10 +1,13 @@
 # Google_LLC_Calculator_Automation_Selenium_Appium
 
-## Technology used:
+## Technology Used:
 - Appium
 - Intellij IDEA
 - Android Studio
 - Appium Inspector
+
+## Framework Used:
+- testNG
 
 ## Scenario
 Automate any series for calculator app. Pass the series as a parameter to test method.  
