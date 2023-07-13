@@ -28,19 +28,19 @@ calcuateSeries("100/10*5-10+60");
   ```Appium```  
 - Open Appium Inspector
 - Set desired capabilites:  
-  {
-    "platformName": "Android",
-    "appium:platformVersion": "11",
-    "appium:appPackage": "com.google.android.calculator",
-    "appium:appActivity": "com.android.calculator2.Calculator",
-    "appium:app": "F:\\Apk\\calculator.apk"
-  }
+  {  
+    "platformName": "Android",  
+    "appium:platformVersion": "11",  
+    "appium:appPackage": "com.google.android.calculator",  
+    "appium:appActivity": "com.android.calculator2.Calculator",  
+    "appium:app": "F:\\Apk\\calculator.apk"  
+  }  
 - Open Intellij Idea
 - Hit this command into the terminal:  
   ```gradle clean test```  
 - To generating Allure Report hit these these commands:  
-  ```allure generate allure-results --clean -o```    
-  ```allure-report and allure serve allure-results```
+  ```allure generate allure-results --clean -output``` and     
+  ```allure serve allure-results```
 
 ## Allure Report
 ![Calc_Overview](https://github.com/fariha28345/Google_LLC_Calculator_Automation_Selenium_Appium/assets/50767962/434b4d4e-201c-4f50-b30b-9f5bb49d3e83)
